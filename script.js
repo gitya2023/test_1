@@ -1,30 +1,30 @@
 class BinaryTreeNode {
     constructor(value) {
-        this.left = null;
-        this.right = null;
+        this.le = null;
+        this.ri = null;
         this.parent = parent;
         this.value = value;
     }
 
     get height() {
-        let leftHeight = this.left ? this.left.height + 1 : 0;
-        let rightHeight = this.right ? this.right.height + 1 : 0;
+        let leftHeight = this.le ? this.le.height + 1 : 0;
+        let rightHeight = this.ri ? this.ri.height + 1 : 0;
         return Math.max(leftHeight, rightHeight);
     }
 }
 
-function traverseDFRecursive(node, callback) {
+function traverseDFR(node, callback) {
     callback(node);
 
-    if (node.left) {
-        traverseDFRecursive(node.left, callback);
+    if (node.le) {
+        traverseDFR(node.le, callback);
     }
 
-    if (node.right) {
-        traverseDFRecursive(node.right, callback);
+    if (node.ri) {
+        traverseDFR(node.ri, callback);
     }
 }
 
 function traverseDF(root, callback) {
-    traverseDFRecursive(root, callback);
+    traverseDFR(root, callback);
 }
