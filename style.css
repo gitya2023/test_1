@@ -1,6 +1,6 @@
 @font-face{
     font-family: tr;
-    src: url(../assets/font/TTLakes-Black.ttf);
+    src: url(../assets/font/TTLakes-green.ttf);
 }
 .main-bg {
     background: url("../assets/image/main-bg.jpg");
@@ -25,7 +25,7 @@
     font-size: 15px;
     line-height: 20px;
     text-align: center;
-    color: #FFFFFF;
+    color: #555;
     margin-bottom: 25px;
 }
 .feedback-list {
@@ -37,7 +37,7 @@
     display: flex;
     width: 227px;
     height: 56px;
-    background: #FFFFFF;
+    background: #333;
     border-radius: 10px;
     margin: 0 auto 8px;
     cursor: pointer;
@@ -49,19 +49,19 @@
     margin-bottom: 30px;
 }
 .btn-feedback-google {
-    background: #FFFFFF;
+    background: #444;
 }
 .btn-feedback-yandex {
-    background: #FFD600;
+    background: #222;
 }
 .btn-feedback-2gis {
-    background: #A1C611;
+    background: #111;
 }
 .btn-feedback-advisor {
-    background: #00AF87;
+    background: #777;
 }
 .btn-feedback-flamp {
-    background: #2E6AE4;
+    background: #888;
 }
 .img-feedback-wrap {
     width: 56px;
@@ -108,17 +108,17 @@
     color: #323232;
 }
 .text-color-white {
-    color: #fff;
+    color: #777;
 }
 .text-feedback-wrap {
     font-family: tr, sans-serif;
-    text-transform: uppercase;
+    text-transform: capitalize;
     line-height: 14px;
     font-size: 10px;
     padding: 15px 10px 0;
 }
 .text-uppercase {
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 14px;
 }
 @media (max-width: 414px) {
