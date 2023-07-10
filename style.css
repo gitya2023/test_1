@@ -1,0 +1,128 @@
+@font-face{
+    font-family: tr;
+    src: url(../assets/font/TTLakes-Black.ttf);
+}
+.main-bg {
+    background: url("../assets/image/main-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.main-bg .container {
+    padding: 15px;
+}
+.child-bg {
+    background: linear-gradient(149.39deg, #FCD000 0.47%, #FFB72D 99.74%);
+    width: 275px;
+    margin: 0 auto;
+}
+.title-feedback {
+    font-family: tr, sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+.feedback-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.btn-feedback {
+    display: flex;
+    width: 227px;
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 0 auto 8px;
+    cursor: pointer;
+}
+.btn-feedback:hover {
+    background: rgba(0, 0, 0, 0.2)!important;
+}
+.btn-feedback:last-child {
+    margin-bottom: 30px;
+}
+.btn-feedback-google {
+    background: #FFFFFF;
+}
+.btn-feedback-yandex {
+    background: #FFD600;
+}
+.btn-feedback-2gis {
+    background: #A1C611;
+}
+.btn-feedback-advisor {
+    background: #00AF87;
+}
+.btn-feedback-flamp {
+    background: #2E6AE4;
+}
+.img-feedback-wrap {
+    width: 56px;
+    position: relative;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.img-wrap-google {
+    background: rgba(242, 242, 242, 0.8);
+}
+.img-wrap-yandex {
+    background: rgba(0, 0, 0, 0.11);
+}
+.img-wrap-2gis {
+    background: rgba(57, 57, 56, 0.1);
+}
+.img-wrap-advisor {
+    background: rgba(57, 57, 56, 0.2);
+}
+.img-wrap-flamp {
+    background: rgba(47, 54, 64, 0.42);
+}
+.img-feedback-wrap img {
+    position: absolute;
+    top: 10px;
+    left: 17px;
+}
+.img-wrap-2gis img {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.img-wrap-advisor img {
+    position: absolute;
+    top: 18px;
+    left: 12px;
+}
+.img-wrap-flamp img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.text-color-black {
+    color: #323232;
+}
+.text-color-white {
+    color: #fff;
+}
+.text-feedback-wrap {
+    font-family: tr, sans-serif;
+    text-transform: uppercase;
+    line-height: 14px;
+    font-size: 10px;
+    padding: 15px 10px 0;
+}
+.text-uppercase {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+@media (max-width: 414px) {
+    .child-bg {
+        width: 100%;
+    }
+}
