@@ -13,6 +13,7 @@ class BinaryTreeNode {
     }
 }
 
+
 function traverseDFR(node, callback) {
     callback(node);
 
@@ -22,7 +23,6 @@ function traverseDFR(node, callback) {
 
     if (node.ri) {
         traverseDFR(node.ri, callback);
-    }
 }
 
 function traverseDF(root, callback) {
